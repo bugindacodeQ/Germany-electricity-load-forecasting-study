@@ -1,0 +1,20 @@
+# Large source and generated datasets
+data/raw/*
+data/processed/*
+time_series_60min_singleindex.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# Generated report artifacts
+reports/figures/*
+!reports/figures/.gitkeep
+!reports/figures/*.png
+!reports/figures/*.jpg
+!reports/figures/*.jpeg
+!reports/figures/*.webp
